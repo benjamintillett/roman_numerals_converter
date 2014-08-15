@@ -1,3 +1,3 @@
 def roman_numerals(number)
-	"I"
+	"I"*number
 end

@@ -4,6 +4,8 @@ describe "roman_numerals" do
 	it "given 1 should return 'I'" do 
 		expect(roman_numerals(1)).to eq "I"
 	end 
-
+	it "given 2 should return 'II'" do 
+		expect(roman_numerals(2)).to eq "II"
+	end
 
 end 
