@@ -1,3 +1,3 @@
 def roman_numerals(number)
-	("I"*number).gsub("IIII","IV")
+	("I"*number).gsub("IIIII","V").gsub("IIII","IV")
 end

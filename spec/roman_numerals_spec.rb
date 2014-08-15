@@ -10,5 +10,10 @@ describe "roman_numerals" do
 	it "given 4 should return 'IV'" do
 		expect(roman_numerals(4)).to eq "IV"
 	end
-
+	it "given 5 should return 'V'" do
+		expect(roman_numerals(5)).to eq "V"
+	end
+	it "given 6 should return 'VI'" do
+		expect(roman_numerals(6)).to eq "VI"
+	end
 end 
